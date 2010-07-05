@@ -1,0 +1,85 @@
+10-07-05 06:01:57 [DEBUG] (Engine) Configuration: {"dbfile"=>"db/world", "dbtype"=>:yaml, "cache_width"=>23, "cache_depth"=>7, "cache_size"=>1000, "safe_read"=>true, "props_are_accessors_only"=>false, "server_port"=>4000, "server_type"=>:server, "server_io"=>:sockio, "server_filters"=>[:telnetfilter, :terminalfilter, :colorfilter], "server_negotiation"=>[:sga, :echo, :naws, :ttype, :zmp], "verbose"=>false, "trace"=>false, "home"=>1, "character_interface"=>["teensy", "tiny"], "object_interface"=>["objects"], "account_system"=>true, "character_limit"=>10, "guest_accounts"=>true, "logfile"=>"logs/server.log"}
+10-07-05 06:01:57 [ INFO] (YamlStore) Building minimal world database...
+10-07-05 06:01:57 [ INFO] (YamlStore) Loading world...
+10-07-05 06:01:57 [ INFO] (YamlStore) Database 'db/world.yaml' loaded...highest id = 1.
+10-07-05 06:01:57 [ INFO] (Command) Loading commands...
+10-07-05 06:01:57 [ INFO] (Command) Done.
+10-07-05 06:01:57 [ INFO] (World) Starting Timer...
+10-07-05 06:01:57 [ INFO] (World) World initialized.
+10-07-05 06:01:57 [ INFO] (EventManager) Event manager starting...
+10-07-05 06:01:57 [ INFO] (Engine) Booting server on port 4000
+10-07-05 06:01:57 [DEBUG] (Reactor) #<Reactor:0xa07eb9c @port=4000, @shutdown=false, @acceptor=nil, @connector=nil, @registry=[], @address=nil, @service_type=:server, @service_io=:sockio, @service_negotiation=[:sga, :echo, :naws, :ttype, :zmp], @service_filters=[:telnetfilter, :terminalfilter, :colorfilter]>
+10-07-05 06:01:57 [FATAL] (Acceptor) Caught Errno::EINVAL: Invalid argument
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/network/acceptor.rb:39:in `setsockopt'
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/network/acceptor.rb:39:in `init'
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/network/reactor.rb:83:in `start'
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/engine/engine.rb:97:in `run'
+	tmud.rb:101:in `<main>'
+10-07-05 06:01:57 [FATAL] (Engine) Engine failed in run
+10-07-05 06:01:57 [FATAL] (Engine) Caught RuntimeError: Unable to start server
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/engine/engine.rb:97:in `run'
+	tmud.rb:101:in `<main>'
+10-07-05 06:10:44 [DEBUG] (Engine) Configuration: {"dbfile"=>"db/world", "dbtype"=>:yaml, "cache_width"=>23, "cache_depth"=>7, "cache_size"=>1000, "safe_read"=>true, "props_are_accessors_only"=>false, "server_port"=>4000, "server_type"=>:server, "server_io"=>:sockio, "server_filters"=>[:telnetfilter, :terminalfilter, :colorfilter], "server_negotiation"=>[:sga, :echo, :naws, :ttype, :zmp], "verbose"=>false, "trace"=>false, "home"=>1, "character_interface"=>["teensy", "tiny"], "object_interface"=>["objects"], "account_system"=>true, "character_limit"=>10, "guest_accounts"=>true, "logfile"=>"logs/server.log"}
+10-07-05 06:10:44 [ INFO] (YamlStore) Loading world...
+10-07-05 06:10:44 [ INFO] (YamlStore) Database 'db/world.yaml' loaded...highest id = 1.
+10-07-05 06:10:44 [ INFO] (Command) Loading commands...
+10-07-05 06:10:44 [ INFO] (Command) Done.
+10-07-05 06:10:44 [ INFO] (World) Starting Timer...
+10-07-05 06:10:44 [ INFO] (World) World initialized.
+10-07-05 06:10:44 [ INFO] (EventManager) Event manager starting...
+10-07-05 06:10:44 [ INFO] (Engine) Booting server on port 4000
+10-07-05 06:10:44 [DEBUG] (Reactor) #<Reactor:0xa0180cc @port=4000, @shutdown=false, @acceptor=nil, @connector=nil, @registry=[], @address=nil, @service_type=:server, @service_io=:sockio, @service_negotiation=[:sga, :echo, :naws, :ttype, :zmp], @service_filters=[:telnetfilter, :terminalfilter, :colorfilter]>
+10-07-05 06:10:44 [FATAL] (Acceptor) Caught Errno::EINVAL: Invalid argument
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/network/acceptor.rb:39:in `setsockopt'
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/network/acceptor.rb:39:in `init'
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/network/reactor.rb:83:in `start'
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/engine/engine.rb:97:in `run'
+	tmud.rb:101:in `<main>'
+10-07-05 06:10:44 [FATAL] (Engine) Engine failed in run
+10-07-05 06:10:44 [FATAL] (Engine) Caught RuntimeError: Unable to start server
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/engine/engine.rb:97:in `run'
+	tmud.rb:101:in `<main>'
+10-07-05 06:11:29 [DEBUG] (Engine) Configuration: {"dbfile"=>"db/world", "dbtype"=>:yaml, "cache_width"=>23, "cache_depth"=>7, "cache_size"=>1000, "safe_read"=>true, "props_are_accessors_only"=>false, "server_port"=>4000, "server_type"=>:server, "server_io"=>:sockio, "server_filters"=>[:telnetfilter, :terminalfilter, :colorfilter], "server_negotiation"=>[:sga, :echo, :naws, :ttype, :zmp], "verbose"=>false, "trace"=>false, "home"=>1, "character_interface"=>["teensy", "tiny"], "object_interface"=>["objects"], "account_system"=>true, "character_limit"=>10, "guest_accounts"=>true, "logfile"=>"logs/server.log"}
+10-07-05 06:11:29 [ INFO] (YamlStore) Loading world...
+10-07-05 06:11:29 [ INFO] (YamlStore) Database 'db/world.yaml' loaded...highest id = 1.
+10-07-05 06:11:29 [ INFO] (Command) Loading commands...
+10-07-05 06:11:29 [ INFO] (Command) Done.
+10-07-05 06:11:29 [ INFO] (World) Starting Timer...
+10-07-05 06:11:29 [ INFO] (World) World initialized.
+10-07-05 06:11:29 [ INFO] (EventManager) Event manager starting...
+10-07-05 06:11:29 [ INFO] (Engine) Booting server on port 4000
+10-07-05 06:11:29 [DEBUG] (Reactor) #<Reactor:0x85c1bb0 @port=4000, @shutdown=false, @acceptor=nil, @connector=nil, @registry=[], @address=nil, @service_type=:server, @service_io=:sockio, @service_negotiation=[:sga, :echo, :naws, :ttype, :zmp], @service_filters=[:telnetfilter, :terminalfilter, :colorfilter]>
+10-07-05 06:11:29 [ INFO] (Engine) TMUD is ready
+10-07-05 06:11:47 [ INFO] (Connection) (70050666) New Connection on 'localhost(127.0.0.1)'
+10-07-05 06:11:47 [DEBUG] (TelnetFilter) (70050666) Offered Telnet option 3 set to true
+10-07-05 06:11:47 [DEBUG] (TelnetFilter) (70050666) Offered Telnet option 1 set to true
+10-07-05 06:11:47 [DEBUG] (TelnetFilter) (70050666) Requested Telnet option 31 set to true
+10-07-05 06:11:47 [DEBUG] (TelnetFilter) (70050666) Requested Telnet option 24 set to true
+10-07-05 06:11:47 [DEBUG] (TelnetFilter) (70050666) Offered Telnet option 93 set to true
+10-07-05 06:11:47 [ INFO] (Acceptor) (70050666) Connection accepted.
+10-07-05 06:11:52 [DEBUG] (TelnetFilter) (70050666) Telnet init_subneg option - Timed out after 32 tries.
+10-07-05 06:12:51 [ INFO] (Connection) (70041874) New Connection on 'localhost(127.0.0.1)'
+10-07-05 06:12:51 [DEBUG] (TelnetFilter) (70041874) Offered Telnet option 3 set to true
+10-07-05 06:12:51 [DEBUG] (TelnetFilter) (70041874) Offered Telnet option 1 set to true
+10-07-05 06:12:51 [DEBUG] (TelnetFilter) (70041874) Requested Telnet option 31 set to true
+10-07-05 06:12:51 [DEBUG] (TelnetFilter) (70041874) Requested Telnet option 24 set to true
+10-07-05 06:12:51 [DEBUG] (TelnetFilter) (70041874) Offered Telnet option 93 set to true
+10-07-05 06:12:51 [ INFO] (Acceptor) (70041874) Connection accepted.
+10-07-05 06:12:51 [DEBUG] (TelnetFilter) (70041874) Telnet init_subneg option - Timed out after 32 tries.
+10-07-05 06:13:34 [ WARN] (Engine) Signal caught request to shutdown.
+10-07-05 06:13:34 [ INFO] (Reactor) Reactor#shutdown: Reactor shutting down
+10-07-05 06:13:34 [ INFO] (Engine) Saving world...
+10-07-05 06:13:34 [ERROR] (Connection) (70041874) Connection#handle_input disconnecting
+10-07-05 06:13:34 [ERROR] (Connection) Caught SystemExit: exit
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/engine/engine.rb:134:in `exit'
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/engine/engine.rb:134:in `graceful_shutdown'
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/engine/engine.rb:125:in `handle_signal'
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/network/connection.rb:86:in `call'
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/network/connection.rb:86:in `handle_input'
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/network/reactor.rb:127:in `block in poll'
+	/home/rdehart/foobazmud/tmud-2.9.0/lib/network/reactor.rb:124:in `each'
+10-07-05 06:13:34 [ INFO] (Connection) (70041874) Connection 'localhost(127.0.0.1)' closing
+10-07-05 06:13:34 [ INFO] (Connection) (70050666) Connection 'localhost(127.0.0.1)' closing
+10-07-05 06:13:53 [ WARN] (Engine) Signal caught request to shutdown.
+10-07-05 06:13:53 [ INFO] (Reactor) Reactor#shutdown: Reactor shutting down
+10-07-05 06:13:53 [ INFO] (Engine) Saving world...

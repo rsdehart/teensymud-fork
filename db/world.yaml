@@ -1,0 +1,38 @@
+--- 
+- !ruby/object:World 
+  props: 
+    :owner: 0
+    :id: 0
+    :desc: This is the World object.
+    :name: World
+    :msgs: {}
+
+    :all_characters: []
+
+    :all_accounts: []
+
+    :builders: []
+
+    :admins: []
+
+    :timer_list: []
+
+    :created_on: 2006-03-10 03:45:33.695862 +00:00
+    :updated_on: 2010-07-05 06:13:33.487497 -00:00
+- !ruby/object:Room 
+  props: 
+    :location: 
+    :owner: 0
+    :id: 1
+    :desc: This is home.
+    :contents: []
+
+    :exits: {}
+
+    :triggers: {}
+
+    :name: Home
+    :created_on: 2006-03-10 03:45:33.695862 +00:00
+    :updated_on: 2006-03-10 03:45:33.695862 +00:00
+    :msgfail: ""
+    :msgsucc: ""
